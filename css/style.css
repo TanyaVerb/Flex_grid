@@ -8,7 +8,7 @@
 .grid {
   display: grid;
   gap: 10px;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
 .grid-item {
@@ -57,4 +57,105 @@
 .grid-item11 {
   background-color: rgb(81, 108, 119);
   grid-area: 3/6/4/7;
+}
+
+.flex {
+  margin-top: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-width: 1490px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.flex-item {
+  min-height: 80px;
+  min-width: 240px;
+}
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.flex-column__item4 {
+  background-color: rgb(13, 121, 104);
+}
+.flex-column__item7 {
+  background-color: rgb(141, 25, 127);
+}
+.flex-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 490px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.flex-block__item1 {
+  background-color: rgb(238, 146, 219);
+  min-width: 490px;
+}
+.flex-block__item5 {
+  background-color: rgb(169, 146, 208);
+}
+.flex-block__item6 {
+  background-color: rgb(22, 97, 47);
+}
+.flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.flex-row__item8 {
+  background-color: rgb(175, 162, 109);
+}
+.flex-row__item9 {
+  background-color: rgb(128, 94, 123);
+  min-width: 490px;
+}
+.flex-row__item10 {
+  background-color: rgb(82, 82, 78);
+  min-width: 490px;
+}
+.flex-row__item11 {
+  background-color: rgb(81, 108, 119);
+}
+.flex-big {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.flex-big__item2 {
+  background-color: rgb(178, 221, 61);
+  min-width: 490px;
+  min-height: 170px;
+}
+.flex-big__item3 {
+  background-color: rgb(123, 139, 240);
+  min-height: 170px;
 }/*# sourceMappingURL=style.css.map */
